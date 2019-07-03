@@ -1,4 +1,4 @@
-package com.jewelermobile.gangfu.zdydemo1;
+package com.jewelermobile.gangfu.zdydemo1.view;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.jewelermobile.gangfu.zdydemo1;
+package com.jewelermobile.gangfu.zdydemo1.recyclerview;
 
 import android.content.Context;
 import android.content.res.TypedArray;

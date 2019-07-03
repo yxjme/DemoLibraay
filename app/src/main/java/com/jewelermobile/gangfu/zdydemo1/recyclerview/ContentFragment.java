@@ -1,4 +1,4 @@
-package com.jewelermobile.gangfu.zdydemo1;
+package com.jewelermobile.gangfu.zdydemo1.recyclerview;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
+import com.jewelermobile.gangfu.zdydemo1.R;
 
 import java.util.ArrayList;
 import java.util.List;

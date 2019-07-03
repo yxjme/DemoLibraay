@@ -1,4 +1,4 @@
-package com.jewelermobile.gangfu.zdydemo1;
+package com.jewelermobile.gangfu.zdydemo1.view;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -12,6 +12,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+
+import com.jewelermobile.gangfu.zdydemo1.R;
 
 /**
  * Created by zbsdata on 2017/3/10.
