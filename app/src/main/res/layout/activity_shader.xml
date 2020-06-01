@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ShaderActivity">
+
+    <com.jewelermobile.gangfu.zdydemo1.view.shader.ShadowLayerView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:padding="20dp"
+        app:elevate="30"
+        app:elevationColor="@color/colorAccent"
+        app:shape="round"
+        app:roundRx="100"
+        app:roundRy="100">
+    </com.jewelermobile.gangfu.zdydemo1.view.shader.ShadowLayerView>
+
+
+    <com.jewelermobile.gangfu.zdydemo1.view.shader.BitmapShaderView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"/>
+</LinearLayout>

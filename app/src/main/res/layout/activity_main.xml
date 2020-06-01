@@ -4,18 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    tools:context="com.jewelermobile.gangfu.zdydemo1.MainActivity">
-    <android.support.v7.widget.RecyclerView
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.jewelermobile.gangfu.zdydemo1.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list列表"
+            android:onClick="list1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid列表"
+            android:onClick="list2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="瀑布流"
+            android:onClick="list3"/>
+    </LinearLayout>
+    <com.jewelermobile.gangfu.zdydemo1.view.PullRecyclerView
         android:id="@+id/mRecyclerView"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clipToPadding="false">
-    </android.support.v7.widget.RecyclerView>
+        android:clipToPadding="false"
+        android:background="#fff"
+        android:visibility="gone">
+    </com.jewelermobile.gangfu.zdydemo1.view.PullRecyclerView>
+
+
+    <com.jewelermobile.gangfu.zdydemo1.view.ContentText
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+
+        android:visibility="gone"/>
+
+
+
+    <com.jewelermobile.gangfu.zdydemo1.view.YXJMEView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="撒旦发"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent"
+        android:textSize="90sp"/>
+
+
+
+    <com.jewelermobile.gangfu.zdydemo1.view.ScrollerDemo
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="1"
+            android:gravity="center"
+            android:background="@mipmap/aa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="2"
+            android:gravity="center"
+            android:background="@mipmap/aa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="3"
+            android:gravity="center"
+            android:background="@mipmap/aa"/>
+    </com.jewelermobile.gangfu.zdydemo1.view.ScrollerDemo>
+
+
+
     <FrameLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="5dp">
+        android:layout_marginLeft="5dp"
+        android:visibility="gone">
     </FrameLayout>
 </LinearLayout>

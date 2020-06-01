@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TextFontActivity"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = monospace"
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = serif"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = cursive"
+            android:textColor="#000"
+            android:fontFamily="cursive"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = casual"
+            android:textColor="#000"
+            android:fontFamily="casual"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = serif"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-black"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-condensed"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-condensed-light"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-condensed-medium"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-light"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-medium"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-thin"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello word = sans-serif-thin"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.jewelermobile.gangfu.zdydemo1"
         minSdkVersion 15
@@ -22,8 +23,15 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.1'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    implementation 'com.github.pedrovgs:draggablepanel:1.9'
+    implementation 'com.lijiankun24:shadowlayout:1.0.0'
+    implementation 'com.github.yxjme:LibraryManager:v1.10'
 }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyViewGroupActivity">
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--事件分发-->
+            <com.jewelermobile.gangfu.zdydemo1.envtouch.MyViewGroupA
+                android:id="@+id/mMyViewGroupA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent">
+                <com.jewelermobile.gangfu.zdydemo1.envtouch.MyViewGroupB
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginTop="20dp">
+                    <com.jewelermobile.gangfu.zdydemo1.envtouch.MyView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </com.jewelermobile.gangfu.zdydemo1.envtouch.MyViewGroupB>
+            </com.jewelermobile.gangfu.zdydemo1.envtouch.MyViewGroupA>
+            <include layout="@layout/layout" android:id="@+id/lay_bar_2"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <include layout="@layout/layout"
+        android:id="@+id/lay_bar_1"
+        android:visibility="gone"/>
+</FrameLayout>
